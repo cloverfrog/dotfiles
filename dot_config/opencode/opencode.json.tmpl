@@ -1,0 +1,36 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "xcode": {
+      "models": {
+        "codex-auto-review": {
+          "name": ""
+        },
+        "gpt-5.3-codex-spark": {
+          "name": ""
+        },
+        "gpt-5.4": {
+          "name": ""
+        },
+        "gpt-5.4-mini": {
+          "name": ""
+        },
+        "gpt-5.4-openai-compact": {
+          "name": ""
+        },
+        "gpt-5.5": {
+          "name": ""
+        },
+        "gpt-5.5-openai-compact": {
+          "name": ""
+        }
+      },
+      "npm": "@ai-sdk/openai",
+      "options": {
+        "apiKey": "{{ .xcode_key }}",
+        "baseURL": "https://api.xcode.best/v1",
+        "setCacheKey": true
+      }
+    }
+  }
+}
