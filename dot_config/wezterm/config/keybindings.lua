@@ -8,7 +8,7 @@ function M.apply(config)
     local act = wezterm.action
 
     config.keys = {
-        -- 智能 Ctrl+C 配置
+        -- Ctrl+C、Ctrl+V 配置
         {
             key = 'c',
             mods = 'CTRL',
@@ -24,6 +24,7 @@ function M.apply(config)
             end
             end),
         },
+        { key = 'v', mods = 'CTRL', action = wezterm.action.PasteFrom 'Clipboard' },
     }
 end
 
