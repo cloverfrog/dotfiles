@@ -12,19 +12,19 @@ local config = wezterm.config_builder()
 
 local modules = {
     "config.fonts",
-    -- "config.appearance",
+    "config.appearance",
     "config.window",
-    -- "config.tab_bar",
-    -- "config.cursor",
+    "config.tab_bar",
+    "config.cursor",
     "config.shell",
-    -- "config.ssh_domains",
-    -- "config.launch_menu",
-    -- "config.events",
+    "config.ssh_domains",
+    "config.launch_menu",
+    "config.events",
     "config.keybindings",
-    -- "config.mouse",
-    -- "config.advanced",
-    -- "config.background",
-    -- "config.hyperlink",
+    "config.mouse",
+    "config.advanced",
+    "config.background",
+    "config.hyperlink",
 }
 
 for _, name in ipairs(modules) do

@@ -10,10 +10,6 @@ function M.apply(config)
 
         -- WSL 发行版
         { label = "WSL: fedora",    args = { "wsl.exe", "-d", "fedora" } },
-
-        -- SSH 连接
-        { label = "SSH: linuxbrew", args = { "ssh", "linuxbrew@122.207.79.209" } },
-        { label = "SSH: software",  args = { "ssh", "software@122.207.79.209" } },
     }
 end
 
